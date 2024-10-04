@@ -6,6 +6,7 @@ import java.util.Map;
 public class SuperCache {
     private Map<String, Map<String, String>> cache= new HashMap<>();
 
+
     public void addCache(String key, Map<String, String> value) {
         cache.put(key, value);
     }
